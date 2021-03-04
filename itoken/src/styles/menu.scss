@@ -1,0 +1,27 @@
+.menu {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 5px 3px -3px rgba(0,0,0,0.11); 
+    box-shadow: 0px 5px 3px -3px rgba(0,0,0,0.11);
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.menu ul {
+    padding-left: 3rem;
+    display: flex;
+}
+.nav-item li {
+    display: inline;
+	padding: 0 2rem 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.nav-item a {
+    font-size: 16px;
+    color: #241D19;
+    opacity: 0.9;
+}
+
+.active {
+    border-bottom: 2px solid #EC7000;
+    padding-bottom: 5px;
+}

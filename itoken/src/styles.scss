@@ -1,0 +1,30 @@
+@import '../src/styles/bootstrap.scss';
+@import '../src/styles/cores.scss';
+@import '../src/styles/header.scss';
+@import '../src/styles/menu.scss';
+
+
+
+html, 
+body { 
+    height: 100%;
+} 
+body {
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
